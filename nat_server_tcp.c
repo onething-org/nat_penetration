@@ -48,7 +48,7 @@ int main(int argc, char **argv)
     char s = 'a';
     int flags = 1;
 
-    sockfd=socket(AF_INET, SOCK_STREAM, 0);
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
     bzero(&server, sizeof(SA_IN));
     server.sin_family = AF_INET;
